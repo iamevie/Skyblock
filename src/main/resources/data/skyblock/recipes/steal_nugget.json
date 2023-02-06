@@ -3,7 +3,7 @@
   "group": "iron_ingot",
   "key": {
     "#": {
-      "item": "skyblock:steal_alloy"
+      "item": "skyblock:steal_nugget"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
     "###"
   ],
   "result": {
-    "item": "skyblock:steal_block"
+    "item": "skyblock:steal_alloy"
   }
 }

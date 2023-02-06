@@ -4,5 +4,10 @@
   "item.skyblock.steal_nugget": "Steal Nugget",
   "block.skyblock.steal_block": "Block of Steal",
 
+  "item.skyblock.upgrade": "Empty Upgrade",
+  "item.skyblock.upgrade_speed": "Speed Upgrade",
+  "item.skyblock.upgrade_range": "Range Upgrade",
+  "item.skyblock.upgrade_capacity": "Capacity Upgrade",
+
   "itemGroup.skyblock_tab": "Sky Block"
 }

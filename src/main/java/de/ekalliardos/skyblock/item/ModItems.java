@@ -15,6 +15,10 @@ public class ModItems {
     public static final RegistryObject<Item> STEAL_ALLOY = ITEMS.register("steal_alloy", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKABLOCK_TAB)));
     public static final RegistryObject<Item> STEAL_POWDER = ITEMS.register("steal_powder", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKABLOCK_TAB)));
     public static final RegistryObject<Item> STEAL_NUGGET = ITEMS.register("steal_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKABLOCK_TAB)));
+    public static final RegistryObject<Item> UPGRADE = ITEMS.register("upgrade", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKABLOCK_TAB)));
+    public static final RegistryObject<Item> UPGRADE_CAPACITY = ITEMS.register("upgrade_capacity", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKABLOCK_TAB)));
+    public static final RegistryObject<Item> UPGRADE_RANGE = ITEMS.register("upgrade_range", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKABLOCK_TAB)));
+    public static final RegistryObject<Item> UPGRADE_SPEED = ITEMS.register("upgrade_speed", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SKABLOCK_TAB)));
 
     public static void register(IEventBus eventBus) {
 
