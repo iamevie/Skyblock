@@ -1,6 +1,8 @@
-package de.ekalliardos.skyblock_mod;
+package de.ekalliardos.skyblock;
 
 import com.mojang.logging.LogUtils;
+import de.ekalliardos.skyblock.block.ModBlocks;
+import de.ekalliardos.skyblock.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -14,12 +16,15 @@ import org.slf4j.Logger;
 @Mod(SkyblockMod.MOD_ID)
 public class SkyblockMod
 {
-    public static final String MOD_ID = "skyblock_mod";
+    public static final String MOD_ID = "skyblock";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public SkyblockMod() {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

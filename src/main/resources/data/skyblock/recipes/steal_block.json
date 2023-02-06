@@ -1,0 +1,16 @@
+{
+  "typ": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "skyblock:steal_alloy"
+    }
+  },
+  "result": {
+    "item": "skyblock:steal_block"
+  }
+}
